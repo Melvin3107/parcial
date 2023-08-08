@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapines destacados</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">LOS MEJORES DE GUATEMALA EN SU AREA</p>
+            <nav>
+                <a href="#Somos-Digital-Izar">Chatea con ellos</a>
+                <a href="#nuestros-programas">Los Mas Destacados</a>
+                <a href="#caracteristicas">Logros</a>
+            </nav>
+
+        </div>
+    </header>
+    
+    <section id="hero">
+        <h1>Ponte en Contacto con los mas destacados <br></h1>
+        <button>Envia un Mensaje!</button>
+        <img src="media/guatemaltecos.jpg" alt="Destacados">
+    </section>
+
+
+    <section id="Somos-Digital-Izar">        
+        <div class="container">
+            
+        <h2>Formulario de Contacto</h2>
+        <form method="POST" action="procesar_formulario.php">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" required><br><br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido" required><br><br>
+        <label for="email"> Correo :  </label>
+        <input type="text" name="email" id="email" required><br><br>
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <fieldset>
+            <legend>Tu personaje favorito</legend><br><br>
+            <input type="radio" name="superheroe" id="superman">
+            <label for="superman">Luis Von An</label><br>
+            <input type="radio" name="superheroe" id="spiderman">
+            <label for="spiderman">Barrondo</label><br>
+            <input type="radio" name="superheroe" id="hulk">
+            <label for="hulk">Arjona</label><br>
+        </fieldset>
+        
+        <br><br>
+        <button type="submit">Enviar</button><br>
+        <button type="reset">Limpiar</button>
+        </form>            
+
+    </section>
+
+    <section id="nuestros-programas">       
+        <div class="container">
+            <h2>LOS MAS DESTACADOS</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>LUIS VON</h3>
+                    <p>1. Creador de duolingo  2. Creador del codigo Capcha 3. Personaje reconocido</p>
+                        <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Barrondo</h3>
+                    <p>1. Primer medalla olimpica. 2. Altaverapacense 3. Pionero del deporte</p>
+                        <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Arjona</h3>
+                    <p>1. Cantautor  2. Premiros La Voz 3. Altruista</p>
+                        <button>+ Info</button>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️ 100% chapines</li>
+                <li>✔️ Iniciaron con las mismas condiciones que tu</li>
+                <li>✔️ Disciplinados</li>
+                <li>✔️ Persistentes</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="final">
+        <h2>Listo para iniciar</h2>
+        <button>SE EL PROXIMO CHAPIN DESTACADO</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Digital-Izar 2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>
